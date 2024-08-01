@@ -1,7 +1,111 @@
-body {
-    font-family: 'Roboto', sans-serif
+html {
+    font-family: 'ABeeZee', sans-serif;
+    box-sizing: border-box;
 }
 
-.header {
-    background-color: #1F2937
+body {
+    background-color: #493401;
+    margin: auto;
+}
+
+.section1-container {
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+}
+
+.header-container {
+    color: #DBCF61;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar {
+    justify-content: space-between;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color:#DBCF61;
+    font-size: 18px;
+}
+
+.header-container .navbar ul li {
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 900
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 500px;
+}
+
+.hero-text {
+    font-size: 48px;
+    color:#DBCF61
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color:#DBCF61
+}
+
+.signup {
+    background-color: #E7D6C9;
+    display: flex;
+    justify-content: center;
+    width: 8em;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.section2-container {
+    background-color: white;
+}
+
+.information-title {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-size: 36px;
+    font-weight: 900
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.wrapper {
+    text-align: center;
+    max-width: 300px;
 }
