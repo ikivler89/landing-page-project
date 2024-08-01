@@ -1,10 +1,10 @@
 html {
-    font-family: 'ABeeZee', sans-serif;
+    font-family: 'Afacad', sans-serif;
     box-sizing: border-box;
 }
 
 body {
-    background-color: #493401;
+    background-color: #4F6806;
     margin: auto;
 }
 
@@ -16,11 +16,12 @@ body {
 }
 
 .header-container {
-    color: #DBCF61;
+    color: #C4DDF1;
 }
 
 .navbar {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 80px;
 }
@@ -30,18 +31,14 @@ body {
     justify-content: flex-end;
 }
 
-.navbar {
-    justify-content: space-between;
-}
-
 .navbar ul li {
     list-style-type: none;
 }
 
 a {
     text-decoration: none;
-    color:#DBCF61;
-    font-size: 18px;
+    color:#C4DDF1;
+    font-size: 24px;
 }
 
 .header-container .navbar ul li {
@@ -56,29 +53,28 @@ a {
 
 .hero {
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;    
 }
 
 .hero-container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     max-width: 500px;
 }
 
 .hero-text {
-    font-size: 48px;
-    color:#DBCF61
+    font-size: 36px;
+    color:#F2F4BD
 }
 
 .hero-subtext {
-    font-size: 18px;
-    color:#DBCF61
+    font-size: 24px;
+    color:#F2F4BD
 }
 
 .signup {
-    background-color: #E7D6C9;
+    background-color: #F2F4BD;
     display: flex;
     justify-content: center;
     width: 8em;
@@ -108,4 +104,73 @@ a {
 .wrapper {
     text-align: center;
     max-width: 300px;
+}
+
+.section3-container {
+    background-color: #C4DDF1;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #4F6806;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-credit {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 900
+}
+
+.section4-container {
+    background: white;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;;
+}
+
+.action-box {
+    background-color: #F2F4BD;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 900px;
+}
+
+.wrapper2 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.call-text {
+    font-size: 20px; 
+}
+
+.buy {
+    border-radius: 10px;
+    background-color: #F2F4BD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 125px;
+    min-height: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
 }
